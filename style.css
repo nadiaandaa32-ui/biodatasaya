@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color: #051049e3;
+    widht: 100px;
+    height: 70px;
+    color: white;
+    
+}
+
+
+.logo {
+ float: left;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ padding-left: 30px;
+
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: rgb(182, 227, 255);
+    font-style: italic;
+}
+
+
+.banner {
+    background-color: #09155ccc;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+
+
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #09155ccc;
+    border: 1px solid white;
+}
+
+h1 span:before{
+    content: "";
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 40px;
+}
+
+
+@keyframes gerak {
+    0% {
+        content: 'Welcome';
+    }
+
+    50% {
+        content: 'My Nadia Layla F.';
+    }
+
+    100% {
+        content: 'Thank You';
+    }
+
+
+}
+.box-AboutMe {
+    text-align: center;
+    color:#4d4d4d;
+    margin: 0px auto;
+    margin-top: 60px;
+    float: left;
+    
+    
+}
+
+
+.box-tengah {
+    width: 1200px;
+    height: px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px 20px 20px 55px;
+    border-radius: 10px;
+    float: left; 
+}
+
+
+
+.box-kiri:hover, .box-kanan:hover {
+   background-color:#09155ccc;
+   color: rgb(255, 255, 255);
+}
+
+
+
+.box-Softskill {
+    text-align: center;
+    color:#4d4d4d;
+    margin: 0px auto; 
+    margin-top: 60px;
+     float: left;
+}
+
+
+  .box-kiri, .box-kanan {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px; 
+    float: left;
+    
+}
+
+
+
+.box-tengah:hover {
+    background-color: #09155ccc;
+    color: white;
+}
+
+.box-aboutme h3,p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-sosmed img {
+    width: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.box-sosmed {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 500px;
+}
+
+.footer {
+    background-color: grey;
+    width: px;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+}
+
